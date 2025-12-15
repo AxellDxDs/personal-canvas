@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Code2, Palette, Music, Gamepad2, Coffee, Zap } from "lucide-react";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const discordBadges = [
   {
@@ -53,6 +53,7 @@ export function HeroSection() {
         >
           <div className="relative inline-block" data-testid="avatar-container">
             <Avatar className="w-32 h-32 border-4 border-primary/30 shadow-2xl">
+              <AvatarImage src="/avatar.jpg" alt="Profile" />
               <AvatarFallback className="text-4xl font-bold bg-gradient-to-br from-primary to-chart-2 text-white">
                 AX
               </AvatarFallback>
