@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 
 const favoriteArtists = [
   {
-    name: "Wave to Earth",
-    genre: "Indie Rock / Dream Pop",
-    description: "Korean indie band with dreamy melodies that hit different. Their music is like a warm hug on a rainy day.",
-    spotifyEmbed: "https://open.spotify.com/embed/artist/7zOBHsEYhPCVs7aryHyBBx?utm_source=generator&theme=0",
-    spotifyUrl: "https://open.spotify.com/artist/7zOBHsEYhPCVs7aryHyBBx",
-    gradient: "from-indigo-500 to-purple-500",
-    albums: ["summer flows 0.02", "wave 0.01", "flaws and all 0.03"],
+  name: "Suki Waterhouse",
+  genre: "Indie Pop / Dream Rock",
+  description:"Soft, cinematic, and effortlessly cool. Her songs feel like late-night thoughts wrapped in vintage romance.",
+  spotifyEmbed: "https://open.spotify.com/embed/album/6wJYh8xP4G3l1M0p6yQ1jA?utm_source=generator&theme=0",
+  spotifyUrl: "https://open.spotify.com/album/6wJYh8xP4G3l1M0p6yQ1jA",
+  gradient: "from-rose-400 to-pink-500",
+  albums: ["Milk Teeth", "I Can’t Let Go", "Coolest Place in the World"],
   },
   {
     name: "Rex Orange County",
